@@ -38,9 +38,8 @@ Include only the sections that are relevant an appropriate.
 
 * Data:
   * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
+    * Input: raw text data from the title of the user's post
+  * Size: weekly data
   * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
 
 #### Preprocessing / Clean up
