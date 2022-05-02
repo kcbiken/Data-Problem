@@ -19,20 +19,16 @@ Part2 file: a)use the above dataframe stored in csv file to visualize various in
 * This section could contain a short paragraph which include the following:
   * **Definition of the tasks / challenge** 
   * The main task of the project to find the sentiment of the stock mentioned on WallstreetBets and perform some additional  insightful visualization
-  * Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * 
+
   * **Your approach**
   * The approach in this repository formulates the task as Natural Language Processing task, using NLTK Vader which is one of the popular unsupervised machine learning algorithm. I have perfomed the task in two steps using two different python file i.e. Part1 and Part2. 
   * Part1.py will take the title of the user's post as an input for the model. The model will generate the sentiments based on the name of the stock. In addition, the model will generate the number of mentions of that stock within the given time frame. It then merges every dataframe together and save that as a csv file. Furthermore, this file also visualize some insightful comparision plots of the stock based upon the number of mentions and sentiments of the stock. 
-  * 
+
   * Part2.py will take the above well merged dataframe as an input. Based upon the name of the stock this model will generate three insightful plots i.e. number of mentions of stock every week, sentiment of stock every week, and price of stocks every week. 
-  * 
-  *   
-  * Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * 
+ 
   * **Summary of the performance achieved**
   * The model is able to calculate the sentiment of stocks that are mentioned on WallstreetBets community on weekly basis. Also, it is able to count the number of times the stock has been mentioned on weekly basis. Based on those data, insightful visualization plots has been achived. 
-  *  Ex: Our best modelWe were able to predict the next day stoch price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+ 
 
 ## Summary of Workdone
 
