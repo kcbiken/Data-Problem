@@ -7,7 +7,7 @@ Part1 file: a)convert raw text data into the dataframe of count of mentions and 
 
 Part2 file: a)use the above dataframe stored in csv file to visualize various insightful plots
 
-![](UTA-DataScience-Logo.png)
+![](https://raw.githubusercontent.com/UTA-DataScience/ProjectTempate/main/UTA-DataScience-Logo.png.png)
 
 # Project Title: Sentiment Analysis of Stocks in reddit community (Wallstreet Bets)
 
