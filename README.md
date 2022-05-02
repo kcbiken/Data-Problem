@@ -11,8 +11,8 @@ Part2 file: a)use the above dataframe stored in csv file to visualize various in
 
 # Project Title: Sentiment Analysis of Stocks in reddit community (Wallstreet Bets)
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **One Sentence Summary** This repository holds an attempt to extract insightful plots from the tiitles of the text collected from the post of user in WallstreetBets community.
+*https://www.reddit.com/r/wallstreetbets/ 
 
 ## Overview
 
