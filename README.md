@@ -1,6 +1,7 @@
 # Data-Problem
 
 Function:
+
 Part1 file: a)convert raw text data into the dataframe of count of mentions and sentiment of stock
             b)convert those dataframe into csv file and save it
 
@@ -8,7 +9,7 @@ Part2 file: a)use the above dataframe stored in csv file to visualize various in
 
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Project Title: Sentiment Analysis of Stocks in reddit community (Wallstreet Bets)
 
 * **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
 "Get Rich" Kaggle challenge (provide link). 
