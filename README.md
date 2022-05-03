@@ -71,9 +71,11 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Performance Comparison
 
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+* The key performance metric(s) in this project will be the dependency price of the stock with its sentiment.
+* For every stock we can compare its price plot and its sentiment and make calculated guess on the future.
+* <img width="639" alt="image" src="https://user-images.githubusercontent.com/89658256/166380730-5c82781f-a8d4-424c-adcf-5dc00350e883.png">
+* <img width="628" alt="image" src="https://user-images.githubusercontent.com/89658256/166382948-49713945-0386-480c-b874-d33b2371a67e.png">
+
 
 ### Conclusions
 
