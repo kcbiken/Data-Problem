@@ -40,11 +40,12 @@ Include only the sections that are relevant an appropriate.
   * Type: For example
     * Input: raw text data from the title of the user's post
   * Size: weekly data
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * Instances: On average 4,000 data points every week
 
 #### Preprocessing / Clean up
 
 * Describe any manipulations you performed to the data.
+* The raw text data from the title of the user's post may or may not contain the name of the stock. Only the tiltle that contains the name of the stock is selected as the input of the model. Those title were stored in dictionary categorized on the basis of the stock's name. Similarly, a dictionary of count of those stocks is created
 
 #### Data Visualization
 
@@ -54,8 +55,9 @@ Show a few visualization of the data and say a few words about what you see.
 
 * Define:
   * Input / Output
+  * Raw text data as input, insightful visualization plots as output
   * Models
-    * Describe the different models you tried and why.
+    * This problem is a Natural Language Processing Problem. Also, this problem is itself an unsupervised problem where there is no target label. Hence, NLTK Vader, one of the popular Natural Language Processing Technique, is a good pre-trained model to use for our problem. 
   * Loss, Optimizer, other Hyperparameters.
 
 ### Training
