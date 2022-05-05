@@ -11,7 +11,7 @@ Part2 file: a)use the above dataframe stored in csv file to visualize various in
 
 # Project Title: Sentiment Analysis of Stocks in reddit community (Wallstreet Bets)
 
-* **One Sentence Summary** This repository holds an attempt to extract insightful plots from the tiitles of the text collected from the post of user in WallstreetBets community.
+* **One Sentence Summary** This repository holds an attempt to extract stocks' sentiments and insightful plots from the tiitles of the text collected from the post of user in WallstreetBets community.
 *https://www.reddit.com/r/wallstreetbets/ 
 
 ## Overview
@@ -68,6 +68,7 @@ Show a few visualization of the data and say a few words about what you see.
   * Training curves (loss vs epoch for test/train).
   * How did you decide to stop training.
   * Any difficulties? How did you resolve them?
+  * Since unsupervised model or model based on vocabulary is used, so training is not required for the model. Instead, the model is made robust by adding new list of words that are popular in stock market's conversation.
 
 ### Performance Comparison
 
@@ -79,11 +80,11 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* Some sentiment may correlate to the price of the stock but no direct correlation is found between the price of the stock and the calculated sentiment of the stock.  
 
 ### Future Work
 
-* What would be the next thing that you would try.
+* In future, I would like to find the correlation of stock and its sentiment not only on a weekly basis but also on daily, biweekly and monthly basis. 
 * What are some other studies that can be done starting from here.
 
 ## How to reproduce results
@@ -92,11 +93,17 @@ Show a few visualization of the data and say a few words about what you see.
    * Reproduce your results fully, including training.
    * Apply this package to other data. For example, how to use the model you trained.
    * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+   * To work with this package, first the user need raw weekly text data from reddit community (Wallstreetbets). 
+* The package can be easily run on simple local computer. 
 
 ### Overview of files in repository
 
 * Describe the directory structure, if any.
+* Raw files: It contains the raw text dataset from reddit
+* Insightful Dataset: It contains the dataset after preprocessing and modeling. It contains price, number of mentions and sentiment of stocks. 
+* Reddit Sentiment Analysis Part 1.ipynb: This package will convert raw files to insightful dataset
+* Reddit Sentiment Analysis Part 2.ipynb: This package will produce insightful plot from insightful dataset
+
 * List all relavent files and describe their role in the package.
 * An example:
   * utils.py: various functions that are used in cleaning and visualizing data.
@@ -113,26 +120,30 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Software Setup
 * List all of the required packages.
+* Packages used: Pandas, Matplotlib, seaborn, request, yahoo finance, regular expression, pandas_datareader, nltk
+* Any packages or libraries can be installed using the command "pip install package_name". For instance, pip install yfinance will install the package yahoo finance. 
 * If not standard, provide or point to instruction for installing the packages.
 * Describe how to install your package.
 
 ### Data
 
 * Point to where they can download the data.
+* Data can be download from this python code. Minor changes on date range is required to get the dataset within specific time interval.
+* https://github.com/ahy3nz/ahy3nz.github.io/blob/master/files/notebooks/2021-02-01-reddit1.ipynb
 * Lead them through preprocessing steps, if necessary.
-
-### Training
-
-* Describe how to train the model
-
-#### Performance Evaluation
-
-* Describe how to run the performance evaluation.
 
 
 ## Citations
 
 * Provide any references.
+* https://github.com/ahy3nz/ahy3nz.github.io/blob/master/files/notebooks/2021-02-01-reddit1.ipynb
+* https://github.com/jklepatch/eattheblocks/blob/master/screencast/290-wallstreetbets-sentiment-analysis/reddit-sentiment-analysis.py
+
+
+
+
+
+
 
 
 
