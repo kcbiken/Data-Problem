@@ -1,12 +1,5 @@
 # Data-Problem
 
-Function:
-
-Part1 file: a)convert raw text data into the dataframe of count of mentions and sentiment of stock
-            b)convert those dataframe into csv file and save it
-
-Part2 file: a)use the above dataframe stored in csv file to visualize various insightful plots
-
 ![](https://raw.githubusercontent.com/UTA-DataScience/ProjectTempate/main/UTA-DataScience-Logo.png.png)
 
 # Project Title: Sentiment Analysis of Stocks in reddit community (Wallstreet Bets)
@@ -27,7 +20,7 @@ Part2 file: a)use the above dataframe stored in csv file to visualize various in
   * Part2.py will take the above well merged dataframe as an input. Based upon the name of the stock this model will generate three insightful plots i.e. number of mentions of stock every week, sentiment of stock every week, and price of stocks every week. 
  
   * **Summary of the performance achieved**
-  * The model is able to calculate the sentiment of stocks that are mentioned on WallstreetBets community on weekly basis. Also, it is able to count the number of times the stock has been mentioned on weekly basis. Based on those data, insightful visualization plots has been achived. 
+The model is able to calculate the sentiment of stocks that are mentioned on WallstreetBets community on weekly basis. Also, it is able to count the number of times the stock has been mentioned on weekly basis. Based on those data, insightful visualization plots has been achived. 
  
 
 ## Summary of Workdone
@@ -44,31 +37,20 @@ Include only the sections that are relevant an appropriate.
 
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
-* The raw text data from the title of the user's post may or may not contain the name of the stock. Only the tiltle that contains the name of the stock is selected as the input of the model. Those title were stored in dictionary categorized on the basis of the stock's name. Similarly, a dictionary of count of those stocks is created
+The raw text data from the title of the user's post may or may not contain the name of the stock. Only the tiltle that contains the name of the stock is selected as the input of the model. Those title were stored in dictionary categorized on the basis of the stock's name. Similarly, a dictionary of count of those stocks is created
 
-#### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
 
 ### Problem Formulation
 
 * Define:
-  * Input / Output
-  * Raw text data as input, insightful visualization plots as output
+  * Input / Output:
+  Raw text data as input, insightful visualization plots as output
   * Models
-    * This problem is a Natural Language Processing Problem. Also, this problem is itself an unsupervised problem where there is no target label. Hence, NLTK Vader, one of the popular Natural Language Processing Technique, is a good pre-trained model to use for our problem. 
-  * Loss, Optimizer, other Hyperparameters.
+  This problem is a Natural Language Processing Problem. Also, this problem is itself an unsupervised problem where there is no target label. Hence, NLTK Vader, one of the popular Natural Language Processing Technique, is a good pre-trained model to use for our problem. 
 
 ### Training
-
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
-  * Since unsupervised model or model based on vocabulary is used, so training is not required for the model. Instead, the model is made robust by adding new list of words that are popular in stock market's conversation.
+Since unsupervised model or model based on vocabulary is used, so training is not required for the model. Instead, the model is made robust by adding new list of words that are popular in stock market's conversation.
 
 ### Performance Comparison
 
