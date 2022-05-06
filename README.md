@@ -86,16 +86,12 @@ Since unsupervised model or model based on vocabulary is used, so training is no
 * Any packages or libraries can be installed using the command "pip install package_name". For instance, pip install yfinance will install the package yahoo finance. 
 
 ### Data
-
-* Point to where they can download the data.
 * Data can be download from this python code. Minor changes on date range is required to get the dataset within specific time interval.
 * https://github.com/ahy3nz/ahy3nz.github.io/blob/master/files/notebooks/2021-02-01-reddit1.ipynb
 * Lead them through preprocessing steps, if necessary.
 
 
 ## Citations
-
-* Provide any references.
 * https://github.com/ahy3nz/ahy3nz.github.io/blob/master/files/notebooks/2021-02-01-reddit1.ipynb
 * https://github.com/jklepatch/eattheblocks/blob/master/screencast/290-wallstreetbets-sentiment-analysis/reddit-sentiment-analysis.py
 
